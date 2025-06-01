@@ -34,6 +34,8 @@
     int flag_octal(va_list args);
     int flag_hexa_min(va_list args);
     int flag_hexa_maj(va_list args);
+    int flag_char(va_list args);
+    int flag_str(va_list args);
     int my_printf(char const *format, ...);
     int my_putnbr_base(unsigned int nbr, char const *base);
 

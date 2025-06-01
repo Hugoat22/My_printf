@@ -12,6 +12,8 @@ SRC = 	src/my_putnbr_base.c	\
 		src/flag_octal.c 		\
 		src/flag_hexa_min.c		\
 		src/flag_hexa_maj.c		\
+		src/flag_char.c 		\
+		src/flag_str.c 			\
 	  	my/my_putstr.c			\
 	  	my/my_putchar.c 		\
 	  	my/my_strlen.c			\

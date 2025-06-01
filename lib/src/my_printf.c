@@ -14,6 +14,8 @@ list_func all_func[] = {
     {'o',flag_octal},
     {'x',flag_hexa_min},
     {'X',flag_hexa_maj},
+    {'c',flag_char},
+    {'s',flag_str},
     {'\0', NULL}
 };
 
