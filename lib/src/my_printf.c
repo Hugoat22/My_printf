@@ -8,6 +8,9 @@
 #include "../my/my.h"
 
 list_func all_func[] = {
+    {'d',flag_int_sig},
+    {'i',flag_int_sig},
+    {'u',flag_int},
     {'\0', NULL}
 };
 

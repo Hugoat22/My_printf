@@ -27,7 +27,8 @@
         func_printf func;
     }list_func;
     
-
+    int flag_int_sig(va_list args);
+    int flag_int(va_list args);
     int my_printf(char const *format, ...);
 
 #endif /* !MY_H_ */

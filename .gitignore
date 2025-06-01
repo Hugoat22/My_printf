@@ -3,4 +3,4 @@ a.out
 my_printf
 *.o
 *.a
-include/*.h
+include/my.h

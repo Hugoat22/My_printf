@@ -6,6 +6,8 @@
 ##
 
 SRC = 	src/my_printf.c		\
+		src/flag_int.c 		\
+		src/flag_int_sig.c 	\
 	  	my/my_putstr.c		\
 	  	my/my_putchar.c 	\
 	  	my/my_strlen.c		\
