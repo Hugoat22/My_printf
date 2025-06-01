@@ -17,6 +17,8 @@
     int my_strlen(char const *str);
     int my_put_nbr(int nb);
     int my_power(int nbr,int pow);
+    char *my_revstr(char *str);
+    void my_swap_char(char *a, char *b);
 
     //printf
 
@@ -29,6 +31,8 @@
     
     int flag_int_sig(va_list args);
     int flag_int(va_list args);
+    int flag_octal(va_list args);
     int my_printf(char const *format, ...);
+    int my_getnbr_base(unsigned int nbr, char const *base);
 
 #endif /* !MY_H_ */
