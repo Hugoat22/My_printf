@@ -9,5 +9,5 @@
 
 int flag_octal(va_list args)
 {
-    return my_getnbr_base(va_arg(args, unsigned int),"01234567");
+    return my_putnbr_base(va_arg(args, unsigned int),"01234567");
 }

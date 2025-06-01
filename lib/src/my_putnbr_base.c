@@ -7,7 +7,7 @@
 
 #include "../my/my.h"
 
-int my_getnbr_base(unsigned int nbr, char const *base)
+int my_putnbr_base(unsigned int nbr, char const *base)
 {
     int size = my_strlen(base);
     char res[1024];

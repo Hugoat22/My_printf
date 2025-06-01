@@ -32,7 +32,9 @@
     int flag_int_sig(va_list args);
     int flag_int(va_list args);
     int flag_octal(va_list args);
+    int flag_hexa_min(va_list args);
+    int flag_hexa_maj(va_list args);
     int my_printf(char const *format, ...);
-    int my_getnbr_base(unsigned int nbr, char const *base);
+    int my_putnbr_base(unsigned int nbr, char const *base);
 
 #endif /* !MY_H_ */
