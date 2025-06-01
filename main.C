@@ -5,9 +5,13 @@
 ** function main
 */
 
-#include "include/my_printf.h"
+#include "include/my.h"
 
 int main(void)
 {
-    my_printf()
+    int count = 0;
+    count = my_printf("hugo %d\n");
+    my_put_nbr(count);
+    my_putchar('\n');
+    return 1;
 }

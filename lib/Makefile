@@ -5,7 +5,14 @@
 ## Makefile lib
 ##
 
-SRC = My_printf.c
+SRC = 	src/my_printf.c		\
+	  	my/my_putstr.c		\
+	  	my/my_putchar.c 	\
+	  	my/my_strlen.c		\
+	  	my/my_put_nbr.c		\
+		my/my_power.c 		\
+
+HEADER = my.h
 
 NAME = libmy.a
 
@@ -17,6 +24,7 @@ all: $(NAME)
 
 $(NAME): $(OBJ)
 	ar rc $(NAME) $(OBJ)
+	cp my/$(HEADER) ../include/
 
 clean:
 	rm -f $(OBJ)

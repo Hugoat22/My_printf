@@ -1,3 +1,6 @@
 .vscode
 a.out
 my_printf
+*.o
+*.a
+include/*.h
