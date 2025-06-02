@@ -14,6 +14,10 @@ SRC = 	src/my_putnbr_base.c	\
 		src/flag_hexa_maj.c		\
 		src/flag_char.c 		\
 		src/flag_str.c 			\
+		src/flag_pointeur.c 	\
+		src/flag_pourcentage.c 	\
+		src/flag_binary.c 		\
+		src/flag_str_print.c 	\
 	  	my/my_putstr.c			\
 	  	my/my_putchar.c 		\
 	  	my/my_strlen.c			\

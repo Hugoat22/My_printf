@@ -10,7 +10,7 @@
 int main(void)
 {
     int count = 0;
-    count = my_printf("hugo %x\n",42);
+    count = my_printf("hugo %S\n","coucou\tc'est moi");
     my_put_nbr(count);
     my_putchar('\n');
     return 1;

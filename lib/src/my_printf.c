@@ -16,6 +16,10 @@ list_func all_func[] = {
     {'X',flag_hexa_maj},
     {'c',flag_char},
     {'s',flag_str},
+    {'p',flag_pointeur},
+    {'%',flag_pourcentage},
+    {'b',flag_binary},
+    {'S',flag_str_print},
     {'\0', NULL}
 };
 
